@@ -28,8 +28,12 @@
   width: 300px;
   border: 1px solid skyblue;
 }
-.register{
+.register,.product{
   margin-left: 30%;
+}
+.login{
+  margin-left: 30%;
+  margin-top: 100px;
 }
 .app-button{
   margin: 25px;
@@ -38,8 +42,18 @@
   background-color: skyblue;
   border: 1px solid;
   cursor: pointer;
+}
+.nav-right{
+  text-align: right;
+}
+.invalid-input{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
 
 }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
